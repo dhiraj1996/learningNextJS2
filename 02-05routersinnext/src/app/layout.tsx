@@ -12,10 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className = "bg-gray-700">
         <header className="bg-sky-400 h-9 text-center text-3xl">Header</header>
         {children}
-        <footer className="bg-red-400 text-center text-3xl absolute bottom-0 w-full box-border;">Footer</footer>
+        <footer className="bg-red-700 h-9 text-center text-3xl;">Footer</footer>
       </body>
     </html>
   )
